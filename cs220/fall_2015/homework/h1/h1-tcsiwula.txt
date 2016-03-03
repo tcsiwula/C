@@ -1,0 +1,7 @@
+/* 
+ * 2/2 - shared: recognize need to synchronize
+ * 1/2 - shared: correct synchronization - (Note: where should we put the busy-wait loop?)
+ * 2/2 - dist: recognize global sum needs to be sent
+ * 2/2 - dist: loop of sends or broadcast
+ * Total: 7/8
+ */

@@ -1,0 +1,11 @@
+Hi all,
+
+Valgrind is a program that (among other things) will look for memory errors in your program.  In particular, it will tell you if your program has memory leaks.  Basic usage is quite simple:  compile your program with the "-g" option to build a symbol table.  Then run it under the control of valgrind:
+
+      $ valgrind ./my_prog
+
+After your program is finished running, valgrind will print a summary of any memory issues it found.  There's more information on the valgrind website (valgrind.org).  A nice, short introduction is in the Quick Start section:
+
+      http://valgrind.org/docs/manual/quick-start.html
+
+You're not required to use valgrind, but if your solution to programming assignment 2 has any memory leaks, you may lose points.

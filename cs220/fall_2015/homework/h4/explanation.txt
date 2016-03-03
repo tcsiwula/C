@@ -1,0 +1,9 @@
+If temp is created inside Create_node() it exists on the stack and is destroyed from memory when the funciton ends. So if you malloc it then it will be saced on the heap, avoiding the segmentation fault.
+
+Also by changing temp from struct to a struct* allows it to be stored on the heap and properly malloced inside Create_node().
+
+Consequently the way you assign temp needs to be changed from struc.var to struct->var notation because it is a struct pointer now and not a struct.
+
+You also need to return the temp* with out the & in front of it because it is already a pointer.
+
+ --  Tim Siwula --

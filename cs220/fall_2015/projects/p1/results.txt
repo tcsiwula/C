@@ -1,0 +1,32 @@
+// Results for f1():
+// x_0 = 2.283093
+// x_new = 1.579549
+// Number of iterations = 10
+// count = 10
+// error_tol = 0.001000
+// Iteration did convereg.
+
+// Results: for f2()
+// x_0 = 998.529676
+// x_new = 999.071815
+// Number of iterations = 2
+// count = 2
+// error_tol = 0.001000
+// Iteration did convereg.
+
+// Results: for f3()
+// x_0 = 3.575217
+// x_new = 2.716811
+// Number of iterations = 10
+// count = 10
+// error_tol = 0.010000
+// Iteration did convereg.
+
+// f_prime( x_old ) is zero!
+// Results: for f4()
+// x_0 = 100.000000
+// x_new = 100.000000
+// Number of iterations = 1
+// count = 1
+// error_tol = 0.010000
+// Iteration did convereg.
