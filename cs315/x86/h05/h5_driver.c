@@ -12,20 +12,14 @@
  * Notes:
  * 1. This version should be run on a 64-bit system.
  */
-
 #include <stdio.h>
-
 long Driver(long a, long b);
-
-int main(void) {
+int main(void)
+{
     long a, b, c;
-
     printf("Enter two ints\n");
     scanf("%ld%ld", &a, &b);
-
     c = Driver(a, b);
-
     printf("The sum is %ld\n", c);
-
     return 0;
 }
