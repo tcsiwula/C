@@ -1,10 +1,9 @@
 cmake_minimum_required(VERSION 3.3)
 project(c_code)
 
-set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wall -Werror")
-
-#set(SOURCE_FILES h4_driver.c)
 file(GLOB all_files "*.c")
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}/bin")
 
-#add_executable(c_code ${SOURCE_FILES})
-add_executable(cs315 ${all_files} cs315/x86/h04/h4_driver.c)
+SET(SOURCE_FILES cs220/fall_2014/h1/h1.c)
+
+ADD_EXECUTABLE(${PROJECT_NAME} ${SOURCE_FILES})
